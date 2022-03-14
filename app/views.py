@@ -12,6 +12,11 @@ app.config['INITIAL_FILE_UPLOADS'] = 'app/static/uploads'
 app.config['EXISTNG_FILE'] = 'app/static/original'
 app.config['GENERATED_FILE'] = 'app/static/generated'
 
+
+@app.route("/print", methods=["GET", "POST"])
+def print():
+  #print("hiiii helllo how are you????")
+  return "hiiii how are you"
 # Route to home page
 @app.route("/", methods=["GET", "POST"])
 def index():
