@@ -3,7 +3,6 @@ imutils
 Pillow
 scikit-image
 gunicorn
-MarkupSafe-1.1.1
 Pywavelets-1.1.1
 werkzeug-1.0.1
 click-7.1.2
