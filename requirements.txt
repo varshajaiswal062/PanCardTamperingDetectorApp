@@ -3,6 +3,6 @@ imutils
 Pillow
 scikit-image
 gunicorn
-numpy-1.19.4
-scipy-1.5.4
-six-1.15.0
+numpy
+scipy
+
